@@ -1,0 +1,46 @@
+.tab1{margin:30px 0;color: #666;}
+.part1{margin-bottom: 30px;text-align: center;}
+.tab-h2{font-size: 20px;letter-spacing: 1px;color: #0059b2;}
+.tab-p{font-size: 15px;letter-spacing: 1px;color:#999;}
+.medie-item{padding: 25px;}
+.media-heading{margin:15px 0px 10px 0px;}
+.text-content{text-align: justify;}
+
+.tab2{background: #eee;padding:40px 20px;text-align: center;}
+.tab2 img{width:80%;height: 80%;}
+
+.tab3{padding:40px 20px;text-align: center;}
+.tab3 img{width:80%;height: 80%;}
+
+.text h3{font-size: 20px;}
+.text p{font-size: 14px;}
+
+/**中等屏幕 （桌面显示器，大于等于992px）**/
+@media (min-width:768px){
+.tab-h2{font-size: 26px;}
+.tab-p{font-size: 16px;}
+
+.text h3{font-size: 22px;}
+.text p{font-size: 15px;}
+
+.tab2-text{float: left;}
+.tab2-img{float: right;}
+}
+/**中等屏幕 （桌面显示器，大于等于992px）**/
+@media (min-width:992px){
+.tab-h2{font-size: 28px;}
+.tab-p{font-size: 17px;}
+
+.text h3{font-size: 24px;}
+.text p{font-size: 16px;}
+}
+/**中等屏幕 （桌面显示器，大于等于1200px）**/
+@media (min-width:1200px){
+.tab-h2{font-size: 30px;}
+.tab-p{font-size: 18px;}
+
+.text h3{font-size: 26px;}
+.text p{font-size: 18px;}
+}
+
+

@@ -6,7 +6,7 @@ body{font-family: "Helvetica Neue", Helvetica,Arial,"Microsoft Yahei UI", "Micro
 .carousel-inner img{margin:0 auto;}
 /*.carousel-control{font-size: 70px;}*/
 /**footer**/
-#footer{padding:10px 0px;background:#eee;border-top:1px solid #ddd;}
+#footer{padding:10px 0px;background:#0059B2;color: #fff;}
 #footer p{text-align: center;}
 .footer_img{width:auto;margin:10px auto;text-align: center;}
 .footer_img a{display: inline-block;margin:0px 3px;}

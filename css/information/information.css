@@ -1,0 +1,37 @@
+/**jumbotron**/
+.jumbotron{margin:50px 0 0 0;background: url(../../images/information/bg.png);color: #fff;padding:50px 0px;}
+.jumbotron h2{font-size: 26px;padding:0 0 0 20px;}
+.jumbotron h4{font-size: 15px;padding:0 0 0 20px;}
+
+/**information**/
+#information{padding:20px 0px;background: #eee;}
+.info-content{background: #fff;margin:0 0 20px 0;box-shadow: 2px 2px 3px #ccc;}
+.info-content img{padding:10px 0;}
+.info-content h4{color:#333;padding:3px 0 0 0;font-size: 14px;}
+.info-content p{line-height: 1.6;}
+
+.info-right{background: #fff;box-shadow: 2px 2px 3px #ccc;}
+.info-right blockquote{margin: 0;padding: 0;}
+.info-right blockquote h2{padding:5px;font-size:20px;color:#333;}
+.info-right-cont{margin:10px 0;padding:0;}
+.info-right h4{font-size:16px;color:#333;line-height: 1.6;}
+.info-right-cont2{padding-right:0;}
+
+/**小屏幕 （桌面显示器，大于等于768px）**/
+@media (min-width:768px){
+.jumbotron h2{font-size: 30px;}
+.jumbotron h4{font-size: 16px;}
+.info-content h4{font-size: 16px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+}
+/**中等屏幕 （桌面显示器，大于等于992px）**/
+@media (min-width:992px){
+.jumbotron h2{font-size: 33px;}
+.jumbotron h4{font-size: 17px;}
+.info-content h4{font-size: 18px;}
+}
+/**大屏幕 （桌面显示器，大于等于1200px）**/
+@media (min-width:1200px){
+.jumbotron h2{font-size: 36px;}
+.jumbotron h4{font-size: 18px;}
+.info-content h4{font-size: 20px;}
+}

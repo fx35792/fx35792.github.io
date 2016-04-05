@@ -15,7 +15,7 @@
 .text h3{font-size: 20px;}
 .text p{font-size: 14px;}
 
-/**中等屏幕 （桌面显示器，大于等于992px）**/
+/**小屏幕 （桌面显示器，大于等于768px）**/
 @media (min-width:768px){
 .tab-h2{font-size: 26px;}
 .tab-p{font-size: 16px;}
@@ -26,7 +26,7 @@
 .tab2-text{float: left;}
 .tab2-img{float: right;}
 }
-/**中等屏幕 （桌面显示器，大于等于992px）**/
+/**小屏幕 （桌面显示器，大于等于992px）**/
 @media (min-width:992px){
 .tab-h2{font-size: 28px;}
 .tab-p{font-size: 17px;}
@@ -34,7 +34,7 @@
 .text h3{font-size: 24px;}
 .text p{font-size: 16px;}
 }
-/**中等屏幕 （桌面显示器，大于等于1200px）**/
+/**大屏幕 （桌面显示器，大于等于1200px）**/
 @media (min-width:1200px){
 .tab-h2{font-size: 30px;}
 .tab-p{font-size: 18px;}
